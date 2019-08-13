@@ -1,0 +1,157 @@
+.col-md-4 {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.avatar {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+.cricle {
+	margin-top: 50px;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+.cricle img{
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+}
+.name {
+	position: relative;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+}
+.name div{
+	margin: auto;
+	text-align: center;
+}
+.first-name {
+	color: white;
+	font-size: 25px;
+
+}
+.last-name {
+	font-size: 25px;
+}
+.job-name {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	bottom: -15px;
+	border: 1px solid blue;
+	background :none;
+	margin: auto;
+	position: relative;
+}
+.info-cv {
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+}
+.info-title {
+	font-size: 20px;
+}
+.info-title span{
+	border-bottom: 1px solid blue;
+}
+.info-content {
+	font-size: 15px;
+	margin-top: 10px;
+	padding: 0 40px;
+}
+.info-content span {
+	margin-top: 10px;
+}
+.col-md-8 {
+	padding: 0 40px;
+}
+.left {
+	margin-bottom: 20px;
+}
+.left-title {
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+	padding: 0 40px;
+	letter-spacing: 5px;
+}
+.left-content {
+	margin-top: 20px;
+
+}
+.left-content h4{
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.left-content h5{
+	text-transform: capitalize;
+	letter-spacing: 5px;
+}
+.skils {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: -60px;
+	left: -40px;
+}
+
+.radialProgressBar {
+ 	
+  border-radius: 50%;
+  -webkit-transform: translate(50%, 50%);
+          transform: translate(50%, 50%);
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ddd;
+  margin: 20px;
+}
+.radialProgressBar .overlay {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: #fff;
+  text-align: center;
+  padding-top: 20%;
+}
+.progress-25 {
+  background-image: -webkit-linear-gradient(36deg, #ddd 50%, transparent 50%), -webkit-linear-gradient(left, #0fa085 50%, #ddd 50%);
+  background-image: linear-gradient(0deg, #ddd 50%, transparent 50%), linear-gradient(90deg, #0fa085 50%, #ddd 50%);
+}
+.progress-50 {
+  background-image: -webkit-linear-gradient(36deg, #ddd 50%, transparent 50%), -webkit-linear-gradient(left, #0fa085 50%, #ddd 50%);
+  background-image: linear-gradient(-90deg, #ddd 50%, transparent 50%), linear-gradient(90deg, #0fa085 50%, #ddd 50%);
+}
+.progress-75 {
+    background-image: -webkit-linear-gradient(left, #0fa085 50%, transparent 50%), -webkit-linear-gradient(72deg, #0fa085 50%, #ddd 50%);
+    background-image: linear-gradient(90deg, #0fa085 50%, transparent 50%), linear-gradient(0deg, #0fa085 50%, #ddd 50%);
+}
+.progress-100 {
+    background-image: -webkit-linear-gradient(left, #0fa085 50%, transparent 50%), -webkit-linear-gradient(72deg, #0fa085 50%, #ddd 50%);
+    background-image: linear-gradient(90deg, #0fa085 50%, transparent 50%), linear-gradient(-90deg, #0fa085 50%, #ddd 50%);
+}
+.left .hobby {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.item {
+	text-align: center;
+}
+.item > span{
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+}

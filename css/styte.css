@@ -1,0 +1,257 @@
+body a:hover{
+	text-decoration: none;
+}
+.section {
+	margin : 0 auto;
+}
+.section-1{
+	width: 50%;
+	float: left;
+	background-color: red;
+	z-index: 2;
+	position: relative;
+}
+.section-2 {
+	width: 50%;
+	float: right;
+	background-size: contain;
+	position: relative;
+
+}
+.info {
+	background-color: #ebebeb;
+}
+.skil {
+	padding: 93px 100px 0 0;
+}
+.name {
+	padding: 20px;
+}
+.name a {
+	font-size: 65.24px;
+}
+.first-name {
+	color: #3176bc;
+	position: relative;
+	top: -40px;
+}
+.last-name {
+	color: black;
+
+}
+.job-name {
+	position: relative;
+	padding: 20px;
+	top: -35px;
+}
+.job-name a{
+    background-color: black;
+    color: white;
+    padding: 10px 45px 10px 15px;
+}
+
+.content a {
+	color: black;
+}
+.contact {
+	padding: 20px 0 20px 20px;
+	background-color: #ffffff;
+}
+.contact-title {
+	font-size: 20px;
+	font-weight: 600;
+	color: #344ba0;
+
+}
+.contact-content {
+	font-size: 18px;
+	margin-left: 20px;
+}
+.experience {
+	position: relative;
+	background-color: #3176bc;
+	padding: 20px 20px;
+	z-index: 2;
+}
+.exp-ss {
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+}
+.last-job {
+	padding: 20px 50px;
+	background-color: #ffffff;
+}
+.last-job div {
+	margin-top: 10px;
+}
+
+.exp-title span {
+	background-color:  #3176bc;
+	padding: 10px;
+	color: #ffffff;
+}
+.exp-content span {
+	font-weight: 700;
+	font-size: 20px;
+}
+.location span {
+	font-weight: 600;
+}
+.first-skil {
+	position: relative;
+	display: flex;
+	margin : 20px 0 50px 50px;
+	justify-content: space-between;
+}
+.cricle {
+	width: 65px;
+	height: 65px;
+	border-radius: 100%;
+	border: 3px solid #3176bc;
+	background-size: cover;
+}
+.cricle img{
+	position: relative;
+	top: 5px;
+	left: 1px;
+	object-fit: cover;
+	width: 100%;
+}
+.level{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	left: 2px;
+    bottom: -30px;
+}
+.level .bg-white {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+.level .bg-dark {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ffffff;
+	border-radius: 100%;
+}
+.trangtri {
+    position: absolute;
+    border: 70px solid #3176bc;
+    width: 50%;
+    height: 405px;
+    top: 233px;
+    left: 150px;
+    z-index: 0;
+}
+.my-skils {
+	width: 60%;
+	margin-left: 40%;
+	float: left;
+	margin-top: 10px;	
+
+}
+.my-skils span {
+	color: white;
+	font-size: 12px;
+}
+.skils {
+
+	display: flex;
+	justify-content: flex-start;
+}
+.skil-level {
+	width: 212px;
+    height: 5px;
+    margin-top: 7px;
+    margin-left: 40px;
+	
+}
+.level-2 {
+	float: left;
+	width: 70%;
+	height: 100%;
+	background-color:  #3176bc;
+}
+.hobby{
+	display: flex;
+	justify-content: space-between;
+}
+.hobby-1 {
+	width: 100px;
+	height: 100px;
+}
+.hobby-1 img {
+	width: 60%;
+	object-fit: cover;
+}
+.hobby-title {
+	position: relative;
+	left: 15px;
+
+}
+.education {
+	width: 100%;
+}
+
+.education .last-job {
+	background: none;
+}
+.education .last-job span {
+	color: white;
+}
+.education .exp-ss {
+	margin-left: 50px;
+}
+.contact-left {
+	margin-top: 20px;
+	width: 50%;
+	float: left;
+	margin-left: 50px;
+	width: 200px;
+	height: 280px;
+	background-color: #2176bc;
+}
+.qr-code {
+	width: 200px;
+	height: 200px;
+
+
+}
+.qr-code img {
+	padding: 20px 40px;
+	width: 100%;
+	object-fit: cover;
+}
+.contact-right {
+	width: 40%;
+	float: left;
+}
+.item-contact {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+}
+.item-contact img {
+	object-fit: cover;
+	padding: 20px;
+	padding-top: 0;
+	width: 100%;
+}
+.contact-bottom {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	bottom: 0px;
+}
+
+.contact-bottom .contact-title {
+	position: absolute;
+	width: 200px;
+	left: 100px;
+	top: 15px;
+	font-size: 14px;
+} 	
